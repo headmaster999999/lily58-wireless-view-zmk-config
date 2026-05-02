@@ -8,6 +8,18 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        sup_qwerty: super_qwerty_layer {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&mo>;
+        };
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
