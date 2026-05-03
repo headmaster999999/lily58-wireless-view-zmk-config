@@ -44,11 +44,11 @@
 
             display-name = "Base";
             bindings = <
-&kp GRAVE       &kp B    &kp L   &kp D     &kp W             &kp Z                                 &kp MINUS  &kp F     &kp O       &kp U    &kp J      &kp BACKSPACE
-&kp ESCAPE      &kp N    &kp R   &kp T     &kp S             &kp G                                 &kp Y      &kp H     &kp A       &kp E    &kp I      &kp BACKSLASH
-&kp LEFT_SHIFT  &kp Q    &kp X   &kp M     &kp C             &kp V                                 &kp K      &kp P     &kp PERIOD  &kp SQT  &kp COMMA  &kp SLASH
-&kp LCTRL       &kp TAB  &trans  &trans    &kp LEFT_CONTROL  &kp TAB  &kp LBKT          &kp RBKT   &kp N      &kp M     &kp COMMA   &kp DOT  &kp FSLH   &kp RSHFT
-                                 &kp LALT  &kp LGUI          &mo 1    &LM 1 LEFT_GUI    &kp SPACE  &kp ENTER  &kp BSPC  &kp RGUI
+&kp GRAVE       &kp B    &kp L   &kp D     &kp W             &kp Z                                 &kp MINUS        &kp F     &kp O       &kp U    &kp J      &kp BACKSPACE
+&kp ESCAPE      &kp N    &kp R   &kp T     &kp S             &kp G                                 &kp Y            &kp H     &kp A       &kp E    &kp I      &kp BACKSLASH
+&kp LEFT_SHIFT  &kp Q    &kp X   &kp M     &kp C             &kp V                                 &kp K            &kp P     &kp PERIOD  &kp SQT  &kp COMMA  &kp SLASH
+&kp LCTRL       &kp TAB  &trans  &trans    &kp LEFT_CONTROL  &kp TAB  &kp LBKT          &kp RBKT   &kp RIGHT_SHIFT  &trans    &trans      &trans   &trans     &trans
+                                 &kp LALT  &kp LGUI          &mo 1    &LM 1 LEFT_GUI    &kp SPACE  &lt 2 ENTER      &kp BSPC  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -84,11 +84,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &kp LC(LEFT)  &trans  &kp LC(BACKSPACE)  &trans   &trans                     &kp K_COPY   &trans     &trans        &kp K_UNDO  &kp LS(LC(V))  &trans
-&kp GRAVE  &trans        &trans  &kp N3             &kp N4   &kp N5                     &kp LEFT     &kp DOWN   &kp UP_ARROW  &kp RIGHT   &kp N0         &trans
-&kp F1     &kp F2        &kp F3  &kp F4             &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT      &trans
-&kp F7     &kp F8        &kp F9  &kp F10            &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT    &kp RBKT       &kp BSLH
-                                 &trans             &trans   &trans   &trans    &trans  &trans       &trans     &trans
+&trans            &kp LC(LEFT)  &trans  &kp LC(BACKSPACE)  &trans   &trans                     &kp K_COPY   &kp LS(NUMBER_6)  &trans        &kp K_UNDO  &kp LS(LC(V))  &trans
+&kp GRAVE         &trans        &trans  &trans             &trans   &trans                     &kp LEFT     &kp DOWN          &kp UP_ARROW  &kp RIGHT   &trans         &trans
+&kp LEFT_SHIFT    &kp F2        &kp F3  &kp C_VOLUME_UP    &kp F5   &kp F6                     &trans       &trans            &trans        &trans      &trans         &trans
+&kp LEFT_CONTROL  &kp F8        &kp F9  &kp C_VOLUME_DOWN  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS         &kp EQUAL     &kp LBKT    &kp RBKT       &kp BSLH
+                                        &trans             &trans   &trans   &trans    &trans  &trans       &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
