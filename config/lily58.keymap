@@ -31,6 +31,20 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <32 33>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <32 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
