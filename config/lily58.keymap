@@ -28,7 +28,7 @@
                 <&mo MACRO_PLACEHOLDER>;
         };
         lmc: lmc {
-            compatible = "zmk,behavior-macro-two-param (corrected maybe.?)";
+            compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
             #binding-cells = <2>;
